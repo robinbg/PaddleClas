@@ -26,6 +26,7 @@ from .legendary_models.pp_lcnet_v2 import PPLCNetV2_base
 from .legendary_models.esnet import ESNet_x0_25, ESNet_x0_5, ESNet_x0_75, ESNet_x1_0
 from .legendary_models.pp_hgnet import PPHGNet_tiny, PPHGNet_small, PPHGNet_base
 
+from .model_zoo.cait import cait_xxs_24, cait_xxs_36, cait_s_24,cait_xxs_24_384,cait_xxs_36_384,cait_xs_24_384,cait_s_24_384, cait_s_36_384,cait_m_36_384,cait_m_48_448
 from .model_zoo.resnet_vc import ResNet50_vc
 from .model_zoo.resnext import ResNeXt50_32x4d, ResNeXt50_64x4d, ResNeXt101_32x4d, ResNeXt101_64x4d, ResNeXt152_32x4d, ResNeXt152_64x4d
 from .model_zoo.resnext_vd import ResNeXt50_vd_32x4d, ResNeXt50_vd_64x4d, ResNeXt101_vd_32x4d, ResNeXt101_vd_64x4d, ResNeXt152_vd_32x4d, ResNeXt152_vd_64x4d
